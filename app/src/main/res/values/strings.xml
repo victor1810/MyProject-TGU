@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyProjectTGU</string>
+    <string name="next_activity">Next Activity</string>
+    <string name="activity_2">Activity_2</string>
+    <string name="activity_1">Activity_1</string>
+    <string name="activity_3">Activity_3</string>
+    <string name="android">Android</string>
 </resources>
