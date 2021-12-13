@@ -31,11 +31,11 @@
         app:srcCompat="@drawable/android_1" />
 
     <Button
-        android:id="@+id/next_activity_1"
+        android:id="@+id/button_activity_1"
         android:layout_width="200dp"
         android:layout_height="50dp"
         android:layout_marginTop="40dp"
-        android:text="@string/next_activity"
+        android:text="@string/start_activity"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"

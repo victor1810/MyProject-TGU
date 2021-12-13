@@ -11,11 +11,10 @@ class ThirdActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_third)
 
-        val button: Button = findViewById(R.id.android)
+        val button: Button = findViewById(R.id.button_activity_3)
         button.setOnClickListener {
-            val androidLink = Uri.parse("https://www.android.com/")
-            val openBrowserIntent = Intent(Intent.ACTION_VIEW, androidLink)
-            startActivity(openBrowserIntent)
+            intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
 
     }

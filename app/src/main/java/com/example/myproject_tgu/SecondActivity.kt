@@ -10,7 +10,7 @@ class SecondActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        val button: Button = findViewById(R.id.next_activity_2)
+        val button: Button = findViewById(R.id.button_activity_2)
         button.setOnClickListener {
             intent = Intent(this, ThirdActivity::class.java)
             startActivity(intent)
